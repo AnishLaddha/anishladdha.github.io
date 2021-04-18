@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+::selection{
+  background: #0e9fad;
+}
+
+body, html{
+  background-color: #101317;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+a{
+  text-decoration: none;
+}
+h1{
+  margin-top: 0.55em;
+  margin-bottom: 0.1em;
+}
+#name{
+  color:white;
+  font-family: 'Overpass Mono', monospace;
+  text-align:center;
+  font-size: 3.2em;
+  padding: 0;
+  margin: 0;
+}
+#list{
+  display: flex;
+  font-family: 'Source Code Pro', monospace;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.list-item{
+  color: white;
+  text-decoration:none;
+  font-size: 1.8em;
+  padding: 0% 3%;
+}
+.list-item:hover{
+  /* color: #CEB888; */
+  color: #0e9fad;
+}
+
+#current{
+  display: flex;
+  font-family: 'Source Code Pro', monospace;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 2%;
+  align-items: center;
+}
+#p-curr1{
+  color: white;
+  font-size: 1.3em;
+}
+#p-curr2{
+  color: #CEB888;
+  font-size: 1.3em;
+
+}
+
+#curr-link:visited{
+  color: #CEB888;
+}
+
+#bottom{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  font-family: 'Source Code Pro', monospace;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom: 20px;
+}
+#icons{
+  display: flex;
+  justify-content: center;
+}
+.icon{
+  color:white;
+  font-size: 2.2em;
+  padding: 0em 0.5em;
+}
+.icon:visited{
+  color: white;
+}
+#cpyright{
+  text-align:center;
+  color:#fff;
+  size:5px;
+}
