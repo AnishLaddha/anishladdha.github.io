@@ -2,12 +2,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
 
+
+:root{
+  --bg: #101317;
+  --accent: #36c681;
+  --text: #fff;
+  --pgold: #CEB888;
+}
+
 ::selection{
-  background: #0e9fad;
+  background: var(--accent);
 }
 
 body, html{
-  background-color: #101317;
+  background-color: var(--bg);
   width: 100%;
   padding: 0;
   margin: 0;
@@ -23,7 +31,7 @@ h1{
   margin-bottom: 0.1em;
 }
 #name{
-  color:white;
+  color: var(--text);
   font-family: 'Overpass Mono', monospace;
   text-align:center;
   font-size: 3.2em;
@@ -38,14 +46,14 @@ h1{
   justify-content: center;
 }
 .list-item{
-  color: white;
+  color: var(--text);
   text-decoration:none;
   font-size: 1.8em;
   padding: 0% 3%;
 }
 .list-item:hover{
   /* color: #CEB888; */
-  color: #0e9fad;
+  color: var(--accent);
 }
 
 #current{
@@ -58,17 +66,17 @@ h1{
   align-items: center;
 }
 #p-curr1{
-  color: white;
+  color: var(--text);
   font-size: 1.3em;
 }
 #p-curr2{
-  color: #CEB888;
+  color: var(--pgold);
   font-size: 1.3em;
 
 }
 
 #curr-link:visited{
-  color: #CEB888;
+  color: var(--pgold);
 }
 
 #bottom{
@@ -86,15 +94,19 @@ h1{
   justify-content: center;
 }
 .icon{
-  color:white;
+  color:var(--text);
   font-size: 2.2em;
   padding: 0em 0.5em;
 }
 .icon:visited{
-  color: white;
+  color: var(--text);
 }
+.icon:hover{
+  color: var(--accent);
+}
+
 #cpyright{
   text-align:center;
-  color:#fff;
+  color: var(--text);
   size:5px;
 }
