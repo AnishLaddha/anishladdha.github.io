@@ -74,6 +74,9 @@ h1{
   font-size: 1.3em;
 
 }
+#curr-link{
+  color: var(--pgold);
+}
 
 #curr-link:visited{
   color: var(--pgold);
