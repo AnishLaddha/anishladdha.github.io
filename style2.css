@@ -1,0 +1,63 @@
+@font-face {
+    font-family: andale;
+    src: url(andale.ttf);
+}
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+
+  background: black;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+p {
+  font-family: andale;
+  color: white;
+  font-size: 50px;
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+.bottom {
+  font-size: 15px;
+  margin-top: 50px;
+}
+.btmitm {
+  font-size: 15px;
+  margin-top: 7px;
+}
+@media only screen and (max-width: 600px) {
+  html,body {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: andale;
+    src: url(andale.ttf);
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+
+  background: black;
+}
+h1 {
+  font-family: andale;
+  color: white;
+  font-size: 50px;
+  margin: 0px;
+  padding: 10px;
+}
+h2 {
+  font-family: andale;
+  color: white;
+  font-size: 30px;
+  margin: 5px;
+  padding: 5px;
+}
+h3{
+  font-family: andale;
+  color: white;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 150px;
+  width: 40%;
+}
+
+.bimg {
+  flex-basis: 150px;
+  width: 150px;
+  height: 150px;
+}
+.ptxt{
+  flex: 0 0 40px;
+	margin: 0px;
+  padding: 0px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  html,body {
+    margin: 10px;
+  }
+}
