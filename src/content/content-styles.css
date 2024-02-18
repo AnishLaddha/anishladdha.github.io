@@ -1,0 +1,50 @@
+ul{
+    list-style-position: inside
+}
+.contact-content {
+    text-align: left;
+    padding: 10%
+}
+.thoughts-content {
+    text-align: left;
+    padding: 10%
+}
+.about-content
+{
+    text-align: left;
+    padding: 10%
+}
+.projects-content
+{
+    text-align: left;
+    padding: 10%
+}
+.work-content {
+    padding: 5%;
+    text-align: left;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 100%;
+    /* border: 2px dashed white; */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+/* .we{
+    border: 2px dotted white;
+} */
+.we-2
+{
+    text-align: right;
+}
+
+.we-title
+{
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px dotted green; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.work-content::-webkit-scrollbar {
+    display: none;
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+/* App.css */
+.app {
+  text-align: center;
+  background: black;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center; /* Center content vertically */
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: bold;
+}
+
+.sidebar {
+  flex: 0 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  color:white;
+  background: black;
+  /* border: 2px dashed white; */
+  font-size: 24px;
+}
+
+.content {
+  flex: 1;
+  padding:20px;
+  height: 80%;
+  color: white;
+  /* overflow: hidden;
+  overflow-y: auto; */
+  /* border: 2px dashed white; */
+
+}
+
+
+/* App.css */
+.selected {
+  /* color: limegreen; */
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%; /* Ensures the image does not exceed its container's width */
+  height: auto; /* Allows the image to maintain its aspect ratio */
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
