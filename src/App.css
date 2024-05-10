@@ -18,6 +18,8 @@
   font-style: bold;
 }
 
+
+
 .sidebar {
   flex: 0 0 20%;
   display: flex;
@@ -44,7 +46,7 @@
 
 /* App.css */
 .selected {
-  /* color: limegreen; */
+  color: limegreen;
   text-decoration: underline;
 }
 
