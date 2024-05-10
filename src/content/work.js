@@ -11,7 +11,7 @@ const WorkContent = () => {
     
     
     <div className='we'>
-      <h2>TBA ;) - Summer 2024</h2>
+      <h2>TBA - Summer 2024</h2>
       <h3>Software Engineer Intern</h3>
       <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque viverra a sapien aliquet finibus. Pellentesque dapibus ex id ligula mollis gravida. Donec sed mauris in tortor laoreet maximus. Sed posuere magna sapien, sed faucibus ante blandit eget. Vestibulum a eros et ipsum vestibulum mollis et sit amet eros. Ut quis hendrerit ipsum, ut sagittis turpis. Aenean eget eleifend nibh, posuere elementum dui. Nulla blandit sodales lacus ut pulvinar.
