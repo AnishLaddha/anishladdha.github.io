@@ -1,21 +1,37 @@
 // about.js
 import React from 'react';
-import meImg from './me.jpg'
 const AboutContent = () => {
   return (
     <div className='about-content'>
       <h1>Hi, I'm Anish:</h1>
-      <img class="me-img" src={meImg} alt="me" />
+      {/* <img class="me-img" src={meImg} alt="me" /> */}
       <p>
-        I am an <i>aspiring</i> Software Engineer from <a href="https://en.wikipedia.org/wiki/Fremont,_California" target="_blank" rel="noopener noreferrer" class="blue-link">Fremont, California <i class="fa fa-external-link" aria-hidden="true"></i></a>. I'm a rising senior at <div class="purdue-text">Purdue University</div> studying <a href="https://engineering.purdue.edu/ECE" target="_blank" rel="noopener noreferrer" class="blue-link">Computer Engineering <i class="fa fa-external-link" aria-hidden="true"></i></a>, with concentrations in Computer Systems and Artificial Intelligence/Machine Learning.
-        This summer, I'm interning as a backend software engineer on the <a href="https://www.coinbase.com/blog/stablecoins-are-part-of-the-future-of-money-and-theyre-already-here" target="_blank" rel="noopener noreferrer" class="blue-link">Stablecoin Growth <i class="fa fa-external-link" aria-hidden="true"></i></a> team @ <div class="emphasis">Coinbase</div>. 
-        In the past, I've done cool things as a software engineering intern at Visa.
+        I am an <i>aspiring</i> Software Engineer from Fremont, California. I'm a rising senior at <div class="purdue-text">Purdue University</div> studying <a href="https://engineering.purdue.edu/ECE" target="_blank" rel="noopener noreferrer" class="blue-link">Computer Engineering</a>, with concentrations in Artificial Intelligence/Machine Learning and Computer Systems.
+        Right now, I'm really interested in systems programming and distributed systems.
         <br></br>
         <br></br>
-        In the Spring of 2024, I was a Undergraduate TA for <a href="https://engineering.purdue.edu/ece270/" target="_blank" rel="noopener noreferrer" class="blue-link">ECE 270: Digital Systems Design <i class="fa fa-external-link" aria-hidden="true"></i></a>. This course is an introduction to digital logic design and hardware engineering with an emphasis on practical design techniques and circuit implementation. We did a lot of really fun work on building circuits on the breadboard and in SystemVerilog.
+        Current: <a href="https://www.coinbase.com/blog/stablecoins-are-part-of-the-future-of-money-and-theyre-already-here" target="_blank" rel="noopener noreferrer" class="blue-link">Stablecoins</a> @ Coinbase, (incoming) Drones @ AFRL<br></br>
+        Previous: AI Infra/Security @ Visa
         <br></br>
         <br></br>
-        This fall, I'll be working with the <a href="https://www.afrl.af.mil/" target="_blank" rel="noopener noreferrer" class="blue-link">Air Force Research Labratory <i class="fa fa-external-link" aria-hidden="true"></i></a> on a research project relating to ground target interception using robust, cyber-secure, unmanned aerial systems (drones).
+        Current (and near future) Reading:
+        <ul>
+          <li>Dune Messiah</li>
+          <li>Effective C++</li>
+          <li>The Kill Chain: Defending America in the Future of High-Tech Warfare</li>
+        </ul>
+        Would Recommend:
+        <ul>
+          <li>Dune</li>
+          <li>Snow Crash</li>
+          <li>Sapiens</li>
+          <li>Superintelligence: Paths, Dangers, Strategies</li>
+          <li>Life 3.0: Being Human in the Age of Artificial Intelligence</li>
+          <li>The Great Gatsby</li>
+          <li><a href='https://www.paulgraham.com/ds.html' target="_blank" rel="noopener noreferrer" class="blue-link">Do Things That Don't Scale</a></li>
+
+        </ul>
+
       </p>
     </div>
   );

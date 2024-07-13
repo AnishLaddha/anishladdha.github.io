@@ -65,3 +65,7 @@ ul{
 .w-head {
     text-decoration: underline;
 }
+
+.projects-list {
+    font-size: 1.2em;
+}
