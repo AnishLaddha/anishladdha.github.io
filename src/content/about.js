@@ -10,8 +10,7 @@ const AboutContent = () => {
         Right now, I'm really interested in systems programming and distributed systems.
         <br></br>
         <br></br>
-        Current: <a href="https://www.coinbase.com/blog/stablecoins-are-part-of-the-future-of-money-and-theyre-already-here" target="_blank" rel="noopener noreferrer" class="blue-link">Stablecoins</a> @ Coinbase, (incoming) Drones @ AFRL<br></br>
-        Previous: AI Infra/Security @ Visa
+        Previous: <a href="https://www.coinbase.com/blog/stablecoins-are-part-of-the-future-of-money-and-theyre-already-here" target="_blank" rel="noopener noreferrer" class="blue-link">Stablecoins</a> @ Coinbase, AI Infra/Security @ Visa
         <br></br>
         <br></br>
         Current (and near future) Reading:
