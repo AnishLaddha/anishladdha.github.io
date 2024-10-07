@@ -6,7 +6,7 @@ const AboutContent = () => {
       <h1>Hi, I'm Anish:</h1>
       {/* <img class="me-img" src={meImg} alt="me" /> */}
       <p>
-        I am an <i>aspiring</i> Software Engineer from Fremont, California. I'm a rising senior at <div class="purdue-text">Purdue University</div> studying <a href="https://engineering.purdue.edu/ECE" target="_blank" rel="noopener noreferrer" class="blue-link">Computer Engineering</a>, with concentrations in Artificial Intelligence/Machine Learning and Computer Systems.
+        I am an <i>aspiring</i> Software Engineer from Fremont, California. I'm a senior at <div class="purdue-text">Purdue University</div> studying Computer Engineering, with concentrations in Artificial Intelligence/Machine Learning and Computer Systems.
         Right now, I'm really interested in systems programming and distributed systems.
         <br></br>
         <br></br>

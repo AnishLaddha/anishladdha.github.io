@@ -9,7 +9,7 @@ const WorkContent = () => {
       <h2>Coinbase - Summer 2024</h2>
       <h3>Software Engineer Intern</h3>
       <p class="work-desc">
-      I'm spending this summer as a backend engineer on the <a href="https://www.coinbase.com/blog/stablecoins-are-part-of-the-future-of-money-and-theyre-already-here" target="_blank" rel="noopener noreferrer" class="blue-link">stablecoin growth<i class="fa fa-external-link" aria-hidden="true"></i></a> team, helping grow the market cap of stablecoins like <a href="https://coinmarketcap.com/currencies/usd-coin/" target="_blank" rel="noopener noreferrer" class="blue-link">$USDC <i class="fa fa-external-link" aria-hidden="true"></i></a>. 🚀
+      I'm spending this summer as a backend engineer on the <a href="https://www.coinbase.com/blog/stablecoins-are-part-of-the-future-of-money-and-theyre-already-here" target="_blank" rel="noopener noreferrer" class="blue-link">stablecoin growth<i class="fa fa-external-link" aria-hidden="true"></i></a> team, helping grow the market cap of stablecoins like $USDC. 🚀
       </p>
     </div>
 
