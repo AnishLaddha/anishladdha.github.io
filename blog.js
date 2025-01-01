@@ -5,36 +5,6 @@ const articles = [
     subtitle: "Subtitle goes here 1",
     link: "https://example.com/article1",
   },
-  {
-    image: "American_Flag.jpg",
-    title: "Article Title 2",
-    subtitle: "Subtitle goes here 2",
-    link: "https://example.com/article2",
-  },
-  {
-    image: "American_Flag.jpg",
-    title: "Article Title 3",
-    subtitle: "Subtitle goes here 3",
-    link: "https://example.com/article3",
-  },
-  {
-    image: "American_Flag.jpg",
-    title: "Article Title 4",
-    subtitle: "Subtitle goes here 4",
-    link: "https://example.com/article4",
-  },
-  {
-    image: "American_Flag.jpg",
-    title: "Article Title 5",
-    subtitle: "Subtitle goes here 5",
-    link: "https://example.com/article5",
-  },
-  {
-    image: "American_Flag.jpg",
-    title: "Article Title 6",
-    subtitle: "Subtitle goes here 6",
-    link: "https://example.com/article6",
-  },
 ];
 
 function renderArticles() {
