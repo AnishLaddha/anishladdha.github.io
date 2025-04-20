@@ -20,8 +20,22 @@
     <a href="anish_key.txt" target="_blank">PGP</a>
     <br>
     <br>
-    <!-- <p id="footer">Above your tomb, the stars will belong to us.</p> -->
+    <div id="footer"></div>
   </div>
+  <script>
+    const url = "https://anish-site.anishladdha03.workers.dev"; // Replace with your actual URL
+    
+    const startTime = performance.now();
+    fetch(url)
+      .then(response => response.text()) // or use .json() if it's JSON
+      .then(number => {
+        const footer = document.getElementById("footer");
+        footer.textContent = `Site Visits: ${number}`;
+      })
+      .catch(err => {
+        console.error("Failed to fetch number:", err);
+      });
+  </script>
 
 </body>
 
