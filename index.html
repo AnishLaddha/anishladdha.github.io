@@ -17,9 +17,9 @@
 
 <body>
   <main id="screen">
-    <img src="c2.gif" alt="gif of computer liquifying"></img>
+    <img id="image" src="c2.gif" alt="gif of computer liquifying"></img>
     <p>Anish Laddha</p>
-    <p>(incoming) Software Engineer in NYC</p>
+    <p>Software Engineer in NYC</p>
     <p>ECE @ Purdue</p>
     <br>
     <a href="mailto:anishladdha03@gmail.com" target="_blank">Contact</a> 
@@ -29,11 +29,20 @@
     <br>
   </main>
   <script>
-	fetch('https://anomalish.xyz/api/', {
-		method: 'POST'
-	}).catch((err) => {
-		console.error('Req failed:', err)
-	});
+    const images = [
+      "c2.gif",
+      "globe.gif",
+    ];
+    const imgEl = document.getElementById("image");
+    if (imgEl) {
+      imgEl.src = images[Math.floor(Math.random() * 2)];
+    }
+
+    fetch('https://anomalish.xyz/api/', {
+      method: 'POST'
+    }).catch((err) => {
+      console.error('Req failed:', err)
+    });
   </script>
   <svg aria-hidden="true" width="0" height="0" hidden>
     <defs>
