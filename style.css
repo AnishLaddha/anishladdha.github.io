@@ -21,6 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   position: relative;
+  filter: url("#distort");
 }
 
 #screen {

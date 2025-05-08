@@ -1,19 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="Anish Laddha is a software engineer interested in backend systems.">
+  <meta property="og:title" content="Anish Laddha" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:url" content="https://anomalish.xyz/" />
+  <link rel="canonical" href="https://anomalish.xyz/" />
   <title>Anish Laddha</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <div id="screen">
-    <img src="c2.gif"></img>
+  <main id="screen">
+    <img src="c2.gif" alt="gif of computer liquifying"></img>
     <p>Anish Laddha</p>
-    <p>(incoming) Software Engineer @ Bloomberg</p>
+    <p>(incoming) Software Engineer in NYC</p>
     <p>ECE @ Purdue</p>
     <br>
     <a href="mailto:anishladdha03@gmail.com" target="_blank">Contact</a> 
@@ -21,7 +27,7 @@
     <a href="anish_key.txt" target="_blank">PGP</a>
     <br>
     <br>
-  </div>
+  </main>
   <script>
 	fetch('https://anomalish.xyz/api/', {
 		method: 'POST'
@@ -29,6 +35,14 @@
 		console.error('Req failed:', err)
 	});
   </script>
+  <svg aria-hidden="true" width="0" height="0" hidden>
+    <defs>
+      <filter id="distort">
+        <feTurbulence baseFrequency="0.005" numOctaves="10" />
+        <feDisplacementMap in="SourceGraphic" scale="10" />
+      </filter>
+    </defs>
+  </svg>
 </body>
 
 </html>
